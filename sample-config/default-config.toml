@@ -29,6 +29,9 @@ margin_right = 0
 width = -1
 height = -1
 
+# close window on unfocus
+close_on_unfocus = true
+
 # specify extra field to be displayed alongside the name (may be empty)
 extra_field = ["id_suffix"] # variants: id, id_suffix, executable, command_line
 extra_field_newline = false # show extra field under name and not alongside
