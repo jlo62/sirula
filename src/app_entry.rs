@@ -192,9 +192,14 @@ pub fn load_entries(
                         || !name.to_lowercase().contains(&e.to_lowercase())) =>
                 {
                     (
-                        format!("{}{}{}",
+                        format!(
+                            "{}{}{}",
                             name,
-                            if config.extra_field_newline {"\n"} else {" "},
+                            if config.extra_field_newline {
+                                "\n"
+                            } else {
+                                " "
+                            },
                             e
                         ),
                         Some((

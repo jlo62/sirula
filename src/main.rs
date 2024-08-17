@@ -135,11 +135,11 @@ fn app_startup(application: &gtk::Application) {
         })
     }));
 
-	if config.close_on_unfocus {
-	    window.connect_focus_out_event(|window, _| {
-    	    window.close();
-    	    Inhibit(false)
-    	});
+    if config.close_on_unfocus {
+        window.connect_focus_out_event(|window, _| {
+            window.close();
+            Inhibit(false)
+        });
     }
 
     let matcher = SkimMatcherV2::default();
