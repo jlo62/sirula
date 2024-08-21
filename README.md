@@ -1,4 +1,5 @@
-Hi, this is a fork of [sirula](https://github.com/DorianRudolph/sirula) that includes extra PRs that are pending for the main repo.
+Hi, this is a fork of [sirula](https://github.com/DorianRudolph/sirula) that includes extra PRs that are pending for the main repo.\
+This fork is available as [sirula-extended-git on the AUR](https://aur.archlinux.org/packages/sirula-extended-git)
 
 If you encounter a issue with sirula, open a Issue over there.\
 If you want to have a pending merge request implemented here, please open a issue here.
