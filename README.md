@@ -1,3 +1,16 @@
+Hi, this is a fork of [sirula](https://github.com/DorianRudolph/sirula) that includes extra PRs that are pending for the main repo.\
+
+If you encounter a issue with sirula, open a Issue over there.\
+If you want to have a pending merge request implemented here, please open a issue here.
+
+This fork currently includes these additional config options:
+* launch the apps in cgroups
+* close the window on unfocus
+* add a newline between description and title
+* drop old history items
+* set the namespace to sirula for window rules
+* add keypad navigation keys
+
 # Sirula
 
 Sirula (simple rust launcher) is an app launcher for wayland.
@@ -12,7 +25,7 @@ I'd be happy to hear any criticism of my code.
 `sample-config/a`:
 
 ![](sample-config/a/sirula.gif)
-[open](https://raw.githubusercontent.com/DorianRudolph/sirula/master/sample-config/sirula.gif)
+[open](https://raw.githubusercontent.com/jlo62/sirula/master/sample-config/sirula.gif)
 
 `sample-config/b`: Overlay in the center of the screen.
 
